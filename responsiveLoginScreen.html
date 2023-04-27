@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Login</title>
+
+    <!-- Font-Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Main Css -->
+    <link rel="stylesheet" href="responsiveLoginScreen.css">
+
+
+
+</head>
+<body class="body">
+    <div class="container">
+        <div class="header">
+            <h2>Create Account</h2>
+        </div>
+        <form method="post" class="form" id="form">
+            <div class="form-control">
+                <label>UserName</label>
+                <input type="text" placeholder="Enter UserName" id="username">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Email</label>
+                <input type="email" placeholder="Enter Email" id="email">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Password</label>
+                <input type="password" placeholder="Enter Password" id="password">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <div class="form-control">
+                <label>Confirm Password</label>
+                <input type="password" placeholder="Re-enter Password" id="confirmPassword">
+                <i class="fa fa-check-circle"></i>
+                <i class="fa fa-exclamation-circle"></i>
+                <small>Error Message</small>
+            </div>
+            <button type="submit">Submit</button>
+            <button type="reset" id="btn_1">Reset</button>
+        </form>
+    </div>
+
+    <script src="responsiveLoginScreen.js"></script>
+</body>
+</html>
